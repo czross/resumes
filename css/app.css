@@ -1,0 +1,170 @@
+body {    
+    overflow-x: hidden;
+}
+
+#serverPic {
+    width: 90%
+}
+
+.startCode {
+    margin-left: 5%;
+    border: solid;
+    border-color: black;
+}
+
+#homeScreen {
+    height: 50%;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#fullBox {
+    height: 600px;
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#title {
+    position: relative;
+    margin-top: 70px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+#home-content {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.break {
+    width: 100%;
+    height: 10px;
+}
+
+.gray-line {
+    width: 100%;
+    height: 2px;
+    color: #e2e2e2;
+    border: none;
+    opacity: .8;
+}
+
+p{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p.caption {
+    font-style: italic;
+}
+
+p.chartTitle {
+    font-style: bold;
+}
+
+#saying {
+    font-size: 
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color: #3b27aa;
+}
+
+h3 {
+    color: gray;
+}
+
+#tagLine {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+    color: #27a586
+}
+
+
+#top-img {
+    background-image: url('../img/img_2947_resize.jpg');
+    margin-top: 30px;
+}
+
+.content {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content2 {
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#logo {
+    height: 75px;
+    width: 250px;
+}
+
+/*#header {
+	height: 50px;
+	padding-top: 250px;
+}*/
+
+#main-content {
+	height: 700px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+.navbar-fixed-top {
+    padding: 0px;
+    -webkit-transition: padding .3s;
+    -moz-transition: padding .3s;
+    transition: padding .3s;
+}
+
+.navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    height: 50px;
+    background-color: #e2e2e2;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
